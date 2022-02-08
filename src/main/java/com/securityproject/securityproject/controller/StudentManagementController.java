@@ -1,4 +1,4 @@
-package com.securityproject.securityproject.security;
+package com.securityproject.securityproject.controller;
 
 import com.securityproject.securityproject.models.Student;
 import org.springframework.web.bind.annotation.*;
@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @RestController
-public class StudentManagementController {
+public class  StudentManagementController {
 
     private static final List<Student> STUDENTS = Arrays.asList
             (new Student(1, "Marko Milosevic"),

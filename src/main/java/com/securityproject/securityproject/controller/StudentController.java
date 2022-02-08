@@ -19,10 +19,10 @@ public class StudentController {
                     new Student(2, "James Bond"),
                     new Student(3, "Ana Ivanovic"));
 
-    @RequestMapping({"/index", ""})
+  /*  @RequestMapping("/index")
     public String getIndex() {
         return "index";
-    }
+    }*/
 
     @GetMapping("/get-student")
     public Student getStudent(@RequestParam Integer studentId) {
